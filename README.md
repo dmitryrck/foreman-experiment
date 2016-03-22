@@ -3,6 +3,12 @@ For all examples my `.env` is exactly equals to:
 ```
 PORT="3000"
 ```
+And my `Procfile`:
+
+```
+web: bundle exec rackup config.ru -p $PORT
+web-dev: bundle exec rackup config.ru -p $PORT
+```
 
 # Two instances
 
