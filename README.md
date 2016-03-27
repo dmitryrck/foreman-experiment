@@ -74,7 +74,7 @@ If you start two of each lines you will get:
 Resume:
 
 * `3000`, because it is the first instance of first line;
-* `3001`, because it is the second instance of the second line;
+* `3001`, because it is the second instance of the first line;
 * `3100`, because it is the first instance of second line;
 * `3101`, because it is the second instance of second line;
 
