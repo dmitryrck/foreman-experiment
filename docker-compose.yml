@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    env_file: .env
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: foreman start "web=2,web-dev=2"
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+      - "3100:3100"
+      - "3101:3101"
