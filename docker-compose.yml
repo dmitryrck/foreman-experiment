@@ -2,7 +2,7 @@ version: "3"
 
 services:
   app:
-    build: .
+    image: dmitryrck/ruby
     env_file: .env
     volumes:
       - .:/app
